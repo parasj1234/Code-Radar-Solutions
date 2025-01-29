@@ -2,9 +2,9 @@
 
 
 
-int main() {
-    int a;
+double main() {
+    double a;
     scanf("%lf",&a);
-    printf("You entered: %0.4lf",a);
+    printf("You entered: %.4lf",a);
     return 0;
 }
