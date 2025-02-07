@@ -3,14 +3,14 @@
 
 
 int main() {
-    int n;
-    scanf("%d",&n);
-    printf("Output:\n");
-    for (int i = n; i>=1;i--){
-        for (int j = 1; j<=1;j++){
-            printf("*");
+    int a;
+    scanf("%d",&a);
+    for(int i = 0;i<a;i++){
+        for(int j = 0:j<(a-i);j++){
+            printf("%c",'*');
         }
-        printf("\n")
+        printf("\n");
     }
+   
     return 0;
 }
