@@ -7,7 +7,7 @@ int main(){
     if(n1>0){
         printf("Positive");
     }
-    elseif(n1==0){
+    else if(n1==0){
         printf("Zero");
     }
     else{
