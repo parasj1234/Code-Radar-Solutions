@@ -8,9 +8,9 @@ int main() {
     if((1<<31)&a==1){
         printf("Set");
     }
-else{
+    else{
     printf("Not Set");
 
-}
+    }
 return 0;
 }
